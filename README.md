@@ -131,16 +131,3 @@ store/
 types/
   index.ts                  # TypeScript interfaces
 ```
-
----
-
-## Why Zustand?
-
-- **No boilerplate**: Define state + actions in a single `create()` call
-- **Built-in async**: Async functions live directly in the store - no thunks/sagas
-- **Small bundle**: ~1KB gzipped vs Redux Toolkit at ~11KB
-- **No Provider needed**: Stores are module singletons - import and use anywhere
-- **TypeScript-first**: Excellent inference out of the box
-- **Persist middleware**: Easy localStorage integration with one import
-
-For a small-medium app like this dashboard, Zustand hits the sweet spot of power and simplicity.
